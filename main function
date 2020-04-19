@@ -1,0 +1,9 @@
+int main(){
+	cout<<"Enter gifts bought by 10 students "<<endl;
+	cout<<"In the order a.......j"<<endl;
+	char name[10]={'a','b','c','d','e','f','g','h','i','j'};
+	int arr[10]={0};
+	for(int i=0;i<10;i++){
+		cout<<name[i]<<" ";
+		cin>>arr[i];
+	}
